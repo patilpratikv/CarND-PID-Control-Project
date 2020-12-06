@@ -51,4 +51,4 @@ The parameters were chosen manually by try and error. First, make sure the car c
 
 ### The vehicle must successfully drive a lap around the track.
 
-Vehicle did finish two laps around the track successfully.
+Vehicle did finish two laps around the track successfully. [Partial lap can be found here](images/final_lap.mp4). 
