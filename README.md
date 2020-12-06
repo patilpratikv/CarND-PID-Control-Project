@@ -37,11 +37,11 @@ The PID implementation is done on the [./src/PID.cpp](./src/PID.cpp). The [PID::
 
 ### Describe the effect each of the P, I, D components had in your implementation.
 
-- The proportional portion of the controller tries to steer the car toward the center line (against the cross-track error). If used along, the car overshoots the central line very easily and go out of the road very quickly. An example image where this component is used along is [P-overshoot car from track](./images/p_overshoot.png).
+- The proportional portion of the controller tries to steer the car toward the center line (against the cross-track error). If used along, the car overshoots the central line very easily and go out of the road very quickly. An example image where this component is used along is [P-overshoot car from track](images/p_overshoot.png).
 
-- The integral portion tries to eliminate a possible bias on the controlled system that could prevent the error to be eliminated. If used along, it makes the car to go in circles. In the case of the simulator, no bias is present. An example video where this component is used along is [I-overshoot car from track](./images/i_overshoot.png).
+- The integral portion tries to eliminate a possible bias on the controlled system that could prevent the error to be eliminated. If used along, it makes the car to go in circles. In the case of the simulator, no bias is present. An example video where this component is used along is [I-overshoot car from track](images/i_overshoot.png).
 
-- The differential portion helps to counteract the proportional trend to overshoot the center line by smoothing the approach to it. An example video where this component is used along is [D-overshoot car from track](./images/d_overshoot.png).
+- The differential portion helps to counteract the proportional trend to overshoot the center line by smoothing the approach to it. An example video where this component is used along is [D-overshoot car from track](images/d_overshoot.png).
 
 ### Describe how the final hyperparameters were chosen.
 
